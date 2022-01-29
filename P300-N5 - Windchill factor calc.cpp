@@ -7,10 +7,10 @@ double windchill_fac(double wind_speed, double temperature);
 int main()
 {
     double wind_speed, temperature;
-    bool loop = true;
+    bool flag = true;
     char ans;
     cout << "This calculator computes the windchill factor." << endl;
-    while(loop){
+    while(flag){
         cout << "Enter wind speed (in m/sec): " << endl;
         cin >> wind_speed;
         cout << "Enter temperature (in Celsius degrees): " << endl;
@@ -23,7 +23,7 @@ int main()
             cout << "Invalid input! ";
         cout << "Enter 1 to compute the windchill factor again, 0 to exit: " << endl;
         cin >> ans;
-        loop = ans=='1';
+        flag = ans=='1';
         }
     return 0;
 }
