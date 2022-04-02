@@ -1,3 +1,3 @@
 # ProblemSolvingWithCpp-Exercises
 
-Select exercises from Savitch's book
+Select exercises from Savitch's C++ book.
